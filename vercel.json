@@ -13,7 +13,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "/public/index.php"
+            "dest": "public/index.php"
         }
     ],
     "outputDirectory": "public"
