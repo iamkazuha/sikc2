@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
-export default {
+module.exports = {
     content: [
         "./resources/**/*.blade.php",
         "./resources/**/*.js",
