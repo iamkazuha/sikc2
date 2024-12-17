@@ -9,12 +9,12 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: "public/build", // Good practice to specify output directory
-        emptyOutDir: true, // Recommended: clears output directory before building
+        outDir: "dist", // Change this to 'dist'
+        emptyOutDir: true,
     },
     resolve: {
         alias: {
-            "@": "/resources/js", // Optional: convenient import alias
+            "@": "/resources/js",
         },
     },
 });
